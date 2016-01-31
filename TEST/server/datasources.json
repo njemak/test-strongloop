@@ -1,0 +1,28 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "cloudant": {
+    "host": "df92a59e-1f55-4270-92f4-78ea2a0ab218-bluemix.cloudant.com",
+    "port": 443,
+    "name": "cloudant",
+    "connector": "couch",
+    "db": "test",
+    "protocol": "https",
+    "auth": {
+      "admin": {
+        "username": "df92a59e-1f55-4270-92f4-78ea2a0ab218-bluemix",
+        "password": "6601500fd4872c5b4697c93783a07d5cb7c59b44536fb0893da2afaebfff4e97"
+      },
+      "reader": {
+        "username": "df92a59e-1f55-4270-92f4-78ea2a0ab218-bluemix",
+        "password": "6601500fd4872c5b4697c93783a07d5cb7c59b44536fb0893da2afaebfff4e97"
+      },
+      "writer": {
+        "username": "df92a59e-1f55-4270-92f4-78ea2a0ab218-bluemix",
+        "password": "6601500fd4872c5b4697c93783a07d5cb7c59b44536fb0893da2afaebfff4e97"
+      }
+    }
+  }
+}

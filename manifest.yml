@@ -1,0 +1,11 @@
+applications:
+- path: ./TEST
+  command: node .
+  memory: 256M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: test-strongloop
+  host: test-strongloop
+  disk_quota: 1024M
+  services:
+  - Cloudant NoSQL DB-rr
